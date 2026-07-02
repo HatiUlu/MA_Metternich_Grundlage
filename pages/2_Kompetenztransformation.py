@@ -5,17 +5,17 @@ import streamlit as st
 from utils import constants as C
 from utils.io_helpers import init_state, download_sidebar
 
-st.set_page_config(page_title="Kompetenztransformation", page_icon="2️⃣", layout="wide")
+st.set_page_config(page_title="Kompetenztransformation", page_icon="2", layout="wide")
 init_state()
 
-st.title("2️⃣ Mesoebene: Kompetenztransformationstabelle")
+st.title("2 Mesoebene: Kompetenztransformationstabelle")
 st.caption(
     "Nach Tisch et al. (2016), Tab. 1 u. Tab. 7: Intendierte Kompetenz → Teilkompetenz → "
     "beobachtbare Handlung (Performanz) → Fachwissen (Was/Wann/Wie) → konzeptuelles Wissen (Warum). "
     "Jeder Teilkompetenz ist mindestens eine Handlung zugeordnet."
 )
 
-with st.expander("📖 Transformationsstrategien (Tab. 2) und Lernprozessstrategien (Tab. 3)"):
+with st.expander("Transformationsstrategien (Tab. 2) und Lernprozessstrategien (Tab. 3)"):
     st.markdown(
         """
 **Kompetenztransformation:** (1) *Von der Kompetenz zum Wissen* – idealisierte Strategie für neue
