@@ -78,7 +78,7 @@ def download_sidebar() -> None:
     with st.sidebar:
         st.divider()
         st.download_button(
-            "⬇️ Arbeitsstand als Excel exportieren",
+            "o Arbeitsstand als Excel exportieren",
             data=export_excel(),
             file_name="LFC-Guide_Arbeitsstand.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
