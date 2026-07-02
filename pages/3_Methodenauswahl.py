@@ -4,10 +4,10 @@ import streamlit as st
 from utils import constants as C
 from utils.io_helpers import init_state, download_sidebar
 
-st.set_page_config(page_title="Methodenauswahl", page_icon="3️⃣", layout="wide")
+st.set_page_config(page_title="Methodenauswahl", page_icon="3", layout="wide")
 init_state()
 
-st.title("3️⃣ Mesoebene: Methodenmorphologie und -auswahl")
+st.title("3 Mesoebene: Methodenmorphologie und -auswahl")
 st.caption(
     "Bewertungskriterien nach Tisch et al. (2016), Tab. 4; Morphologie analog Abb. 8. "
     "Ziel ist die begründete Wahl der Methode, die zur jeweiligen Lehr-Lern-Situation passt – "
