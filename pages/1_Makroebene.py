@@ -3,10 +3,10 @@ import streamlit as st
 
 from utils.io_helpers import init_state, download_sidebar
 
-st.set_page_config(page_title="Makroebene", page_icon="1️⃣", layout="wide")
+st.set_page_config(page_title="Makroebene", page_icon="1", layout="wide")
 init_state()
 
-st.title("1️⃣ Makroebene: Lernfabrik-Umgebung")
+st.title("1 Makroebene: Lernfabrik-Umgebung")
 st.caption(
     "Arbeitsmodell nach Tisch et al. (2016), Abb. 3: Organisationale Anforderungen → "
     "intendierte Kompetenzen → Konfiguration der soziotechnischen und didaktischen Infrastruktur."
