@@ -4,10 +4,10 @@ import streamlit as st
 from utils import constants as C
 from utils.io_helpers import init_state, download_sidebar
 
-st.set_page_config(page_title="Lernsituation", page_icon="4️⃣", layout="wide")
+st.set_page_config(page_title="Lernsituation", page_icon="4", layout="wide")
 init_state()
 
-st.title("4️⃣ Mikroebene: Lernsituations-Steckbrief")
+st.title("4 Mikroebene: Lernsituations-Steckbrief")
 st.caption(
     "Vorgehen nach Tisch et al. (2016), Abb. 11: (1) korrespondierende Handlungen aus der "
     "Kompetenztransformation identifizieren, (2) Szenario gestalten, in dem diese Handlungen zur "
