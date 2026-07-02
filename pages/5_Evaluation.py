@@ -5,10 +5,10 @@ import streamlit as st
 from utils import constants as C
 from utils.io_helpers import init_state, download_sidebar
 
-st.set_page_config(page_title="Evaluation", page_icon="5️⃣", layout="wide")
+st.set_page_config(page_title="Evaluation", page_icon="5", layout="wide")
 init_state()
 
-st.title("5️⃣ Evaluation der Lernzielerreichung")
+st.title("5 Evaluation der Lernzielerreichung")
 st.caption(
     "In Anlehnung an Tisch et al. (2016), Abschn. 5.2 u. Tab. 8: Die Kompetenztransformationstabelle "
     "dient als Basis semistrukturierter Beobachtungsbögen (Indikatoren: Selbstständigkeit, Herleitung, "
