@@ -3,10 +3,10 @@ import streamlit as st
 
 from utils.io_helpers import init_state, download_sidebar
 
-st.set_page_config(page_title="LFC-Guide-Werkzeug", page_icon="🏭", layout="wide")
+st.set_page_config(page_title="LFC-Guide-Werkzeug", layout="wide")
 init_state()
 
-st.title("🏭 LFC-Guide: Kompetenzorientierte Gestaltung der Remanufacturing-Lernfabrik")
+st.title("LFC-Guide: Kompetenzorientierte Gestaltung der Remanufacturing-Lernfabrik")
 st.caption(
     "Digitales Arbeitswerkzeug nach Tisch, Hertle, Abele, Metternich & Tenberg (2016): "
     "*Learning factory design: a competency-oriented approach integrating three design levels*, "
@@ -26,14 +26,14 @@ Schnittstelle zwischen organisationalen Anforderungen und Gestaltung.
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.subheader("1️⃣ Makroebene")
+    st.subheader("I. Makroebene")
     st.markdown(
         "**Lernfabrik-Umgebung.** Organisationale Anforderungen, intendierte "
         "Hauptkompetenzen, soziotechnische und didaktische Infrastruktur."
     )
     st.page_link("pages/1_Makroebene.py", label="→ Zur Makroebene")
 with col2:
-    st.subheader("2️⃣ Mesoebene")
+    st.subheader("II. Mesoebene")
     st.markdown(
         "**Lernmodul.** Kompetenztransformationstabelle (Teilkompetenzen, Handlungen, "
         "Wissenselemente), Lernprozesssteuerung, Methodenauswahl."
@@ -41,7 +41,7 @@ with col2:
     st.page_link("pages/2_Kompetenztransformation.py", label="→ Kompetenztransformation")
     st.page_link("pages/3_Methodenauswahl.py", label="→ Methodenauswahl")
 with col3:
-    st.subheader("3️⃣ Mikroebene")
+    st.subheader("III. Mikroebene")
     st.markdown(
         "**Lernsituation.** Steckbrief-Generator (Handlungen → Szenario → "
         "Übungsbeschreibung) und Evaluation der Lernzielerreichung."
