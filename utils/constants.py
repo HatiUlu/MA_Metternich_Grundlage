@@ -89,6 +89,24 @@ AUSPRAEGUNG = ["", "niedrig", "mittel", "hoch"]
 
 EVAL_INDIKATOREN = ["Selbstständigkeit", "Herleitung", "Aktivität", "Ergebnis"]
 
+TITEL_LERNSITUATION = [
+    "Grundlagen"
+    "Aufbauseminar"
+    "Fortgeschrittenenseminar"
+    "Praxis-Workshop"
+    "neu"
+]
+
+ZUGEHOERIGER_LEHRMODUL = ["", "Modul_DT", "Modul_IoT", "Modul_X"]
+
+DAUER = [
+    "Studenten_Semester",
+    "Schueler_Workshop_3h/Woche",
+    "Fachkraefte_Workshop_4_Wochen",
+    "Fuehrungskräfte_Workshop_2_Wochen",
+    "none",
+]
+
 KT_SPALTEN = [
     "Nr.",
     "Kompetenzklasse",
