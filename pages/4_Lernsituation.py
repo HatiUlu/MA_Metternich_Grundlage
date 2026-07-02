@@ -25,7 +25,7 @@ handlungen_optionen = [
 with st.form("ls_form", clear_on_submit=False):
     st.subheader("Kopfdaten")
     c1, c2, c3 = st.columns(3)
-    titel = c1.text_input("Titel der Lernsituation, C.TITEL_LERNSITUATION")
+    akt_ty = c1.selectbox("Titel der Lernsituation", C.TITEL_LERNSITUATION)
     modul = c2.text_input("Zugehöriges Lernmodul")
     dauer = c3.text_input("Dauer", placeholder="z. B. 90 min Exploration + 30 min Systematisierung")
     c1, c2, c3 = st.columns(3)
